@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Hitomila.hrs</AssemblyName>
+    <PackageId>Hitomila.hrs</PackageId>
+    <Authors>HReader</Authors>
+    <Company>HReader</Company>
+    <Product>HReader.Plugin.Hitomila</Product>
+    <Version>0.1.2-alpha</Version>
+    <AssemblyVersion>0.1.2.0</AssemblyVersion>
+    <FileVersion>0.1.2.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HReader.Base" Version="0.1.2-alpha" />
+  </ItemGroup>
 
 </Project>
